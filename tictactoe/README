@@ -1,0 +1,23 @@
+Traditional tictactoe game developed in python:
+game is for two users.
+
+components:
+-----------
+	TicTacToe.py      --> main game starts from here.
+
+	boards.py         --> defines boards for the game. has two functions in it.
+			      show_board()-> shows pattern for positions where user can
+			     		     mark his/her response. corresponds to the 
+					     num keys of the keyboard.
+			      live_board()-> shows live board with marked positions.
+			    		     takes in parameters from the main game.
+
+	flip.py	          --> flips user turns.
+
+	win_lose_check.py --> checks for win(vertcal,horizontal and diagonal allignments)
+
+usage:
+------
+	run TicTacToe.py file. 
+	python TicTacToe.py (you can also run it from shell after changing permission of the file to execute)
+
